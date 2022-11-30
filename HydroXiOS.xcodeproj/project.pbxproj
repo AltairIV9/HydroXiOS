@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7749786729376EC9001F1EEB /* HydroXiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749786629376EC9001F1EEB /* HydroXiOSApp.swift */; };
+		7749786929376EC9001F1EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749786829376EC9001F1EEB /* ContentView.swift */; };
+		7749786B29376ECA001F1EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7749786A29376ECA001F1EEB /* Assets.xcassets */; };
+		7749786F29376ECA001F1EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7749786E29376ECA001F1EEB /* Preview Assets.xcassets */; };
+		7749787929376ECA001F1EEB /* HydroXiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749787829376ECA001F1EEB /* HydroXiOSTests.swift */; };
+		7749788329376ECA001F1EEB /* HydroXiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */; };
+		7749788529376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7749787529376ECA001F1EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7749785B29376EC9001F1EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7749786229376EC9001F1EEB;
+			remoteInfo = HydroXiOS;
+		};
+		7749787F29376ECA001F1EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7749785B29376EC9001F1EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7749786229376EC9001F1EEB;
+			remoteInfo = HydroXiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7749786329376EC9001F1EEB /* HydroXiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroXiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7749786629376EC9001F1EEB /* HydroXiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSApp.swift; sourceTree = "<group>"; };
+		7749786829376EC9001F1EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7749786A29376ECA001F1EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7749786C29376ECA001F1EEB /* HydroXiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HydroXiOS.entitlements; sourceTree = "<group>"; };
+		7749786E29376ECA001F1EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7749787429376ECA001F1EEB /* HydroXiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroXiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7749787829376ECA001F1EEB /* HydroXiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSTests.swift; sourceTree = "<group>"; };
+		7749787E29376ECA001F1EEB /* HydroXiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroXiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITests.swift; sourceTree = "<group>"; };
+		7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7749786029376EC9001F1EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787129376ECA001F1EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787B29376ECA001F1EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7749785A29376EC9001F1EEB = {
+			isa = PBXGroup;
+			children = (
+				7749786529376EC9001F1EEB /* HydroXiOS */,
+				7749787729376ECA001F1EEB /* HydroXiOSTests */,
+				7749788129376ECA001F1EEB /* HydroXiOSUITests */,
+				7749786429376EC9001F1EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7749786429376EC9001F1EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7749786329376EC9001F1EEB /* HydroXiOS.app */,
+				7749787429376ECA001F1EEB /* HydroXiOSTests.xctest */,
+				7749787E29376ECA001F1EEB /* HydroXiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7749786529376EC9001F1EEB /* HydroXiOS */ = {
+			isa = PBXGroup;
+			children = (
+				7749786629376EC9001F1EEB /* HydroXiOSApp.swift */,
+				7749786829376EC9001F1EEB /* ContentView.swift */,
+				7749786A29376ECA001F1EEB /* Assets.xcassets */,
+				7749786C29376ECA001F1EEB /* HydroXiOS.entitlements */,
+				7749786D29376ECA001F1EEB /* Preview Content */,
+			);
+			path = HydroXiOS;
+			sourceTree = "<group>";
+		};
+		7749786D29376ECA001F1EEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7749786E29376ECA001F1EEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7749787729376ECA001F1EEB /* HydroXiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7749787829376ECA001F1EEB /* HydroXiOSTests.swift */,
+			);
+			path = HydroXiOSTests;
+			sourceTree = "<group>";
+		};
+		7749788129376ECA001F1EEB /* HydroXiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */,
+				7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */,
+			);
+			path = HydroXiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7749786229376EC9001F1EEB /* HydroXiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7749788829376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOS" */;
+			buildPhases = (
+				7749785F29376EC9001F1EEB /* Sources */,
+				7749786029376EC9001F1EEB /* Frameworks */,
+				7749786129376EC9001F1EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroXiOS;
+			productName = HydroXiOS;
+			productReference = 7749786329376EC9001F1EEB /* HydroXiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7749787329376ECA001F1EEB /* HydroXiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7749788B29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSTests" */;
+			buildPhases = (
+				7749787029376ECA001F1EEB /* Sources */,
+				7749787129376ECA001F1EEB /* Frameworks */,
+				7749787229376ECA001F1EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7749787629376ECA001F1EEB /* PBXTargetDependency */,
+			);
+			name = HydroXiOSTests;
+			productName = HydroXiOSTests;
+			productReference = 7749787429376ECA001F1EEB /* HydroXiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7749787D29376ECA001F1EEB /* HydroXiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7749788E29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSUITests" */;
+			buildPhases = (
+				7749787A29376ECA001F1EEB /* Sources */,
+				7749787B29376ECA001F1EEB /* Frameworks */,
+				7749787C29376ECA001F1EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7749788029376ECA001F1EEB /* PBXTargetDependency */,
+			);
+			name = HydroXiOSUITests;
+			productName = HydroXiOSUITests;
+			productReference = 7749787E29376ECA001F1EEB /* HydroXiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7749785B29376EC9001F1EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					7749786229376EC9001F1EEB = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7749787329376ECA001F1EEB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7749786229376EC9001F1EEB;
+					};
+					7749787D29376ECA001F1EEB = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 7749786229376EC9001F1EEB;
+					};
+				};
+			};
+			buildConfigurationList = 7749785E29376EC9001F1EEB /* Build configuration list for PBXProject "HydroXiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7749785A29376EC9001F1EEB;
+			productRefGroup = 7749786429376EC9001F1EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7749786229376EC9001F1EEB /* HydroXiOS */,
+				7749787329376ECA001F1EEB /* HydroXiOSTests */,
+				7749787D29376ECA001F1EEB /* HydroXiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7749786129376EC9001F1EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749786F29376ECA001F1EEB /* Preview Assets.xcassets in Resources */,
+				7749786B29376ECA001F1EEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787229376ECA001F1EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787C29376ECA001F1EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7749785F29376EC9001F1EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749786929376EC9001F1EEB /* ContentView.swift in Sources */,
+				7749786729376EC9001F1EEB /* HydroXiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787029376ECA001F1EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749787929376ECA001F1EEB /* HydroXiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7749787A29376ECA001F1EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7749788529376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift in Sources */,
+				7749788329376ECA001F1EEB /* HydroXiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7749787629376ECA001F1EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7749786229376EC9001F1EEB /* HydroXiOS */;
+			targetProxy = 7749787529376ECA001F1EEB /* PBXContainerItemProxy */;
+		};
+		7749788029376ECA001F1EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7749786229376EC9001F1EEB /* HydroXiOS */;
+			targetProxy = 7749787F29376ECA001F1EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7749788629376ECA001F1EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7749788729376ECA001F1EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7749788929376ECA001F1EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HydroXiOS/HydroXiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroXiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7749788A29376ECA001F1EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HydroXiOS/HydroXiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HydroXiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7749788C29376ECA001F1EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroXiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroXiOS";
+			};
+			name = Debug;
+		};
+		7749788D29376ECA001F1EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroXiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HydroXiOS";
+			};
+			name = Release;
+		};
+		7749788F29376ECA001F1EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroXiOS;
+			};
+			name = Debug;
+		};
+		7749789029376ECA001F1EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechX.HydroXiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HydroXiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7749785E29376EC9001F1EEB /* Build configuration list for PBXProject "HydroXiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749788629376ECA001F1EEB /* Debug */,
+				7749788729376ECA001F1EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7749788829376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749788929376ECA001F1EEB /* Debug */,
+				7749788A29376ECA001F1EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7749788B29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749788C29376ECA001F1EEB /* Debug */,
+				7749788D29376ECA001F1EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7749788E29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7749788F29376ECA001F1EEB /* Debug */,
+				7749789029376ECA001F1EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7749785B29376EC9001F1EEB /* Project object */;
+}
