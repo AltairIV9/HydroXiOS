@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7749786729376EC9001F1EEB /* HydroXiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749786629376EC9001F1EEB /* HydroXiOSApp.swift */; };
-		7749786929376EC9001F1EEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749786829376EC9001F1EEB /* ContentView.swift */; };
+		7749786929376EC9001F1EEB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749786829376EC9001F1EEB /* MenuView.swift */; };
 		7749786B29376ECA001F1EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7749786A29376ECA001F1EEB /* Assets.xcassets */; };
 		7749786F29376ECA001F1EEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7749786E29376ECA001F1EEB /* Preview Assets.xcassets */; };
 		7749787929376ECA001F1EEB /* HydroXiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749787829376ECA001F1EEB /* HydroXiOSTests.swift */; };
 		7749788329376ECA001F1EEB /* HydroXiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */; };
 		7749788529376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */; };
+		7779D7862937E3C0003761EA /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D7852937E3C0003761EA /* Dia.swift */; };
+		7779D7882937E456003761EA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779D7872937E456003761EA /* Config.swift */; };
 		C4939A65D938A8E01B56962F /* Pods_HydroXiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67D413921023238BB26E6C6 /* Pods_HydroXiOSTests.framework */; };
 		CAC144A6394FF5B86629E391 /* Pods_HydroXiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DD99ABF208459F96A1CB0F /* Pods_HydroXiOS.framework */; };
 		EF49C43EF798AF974488E076 /* Pods_HydroXiOS_HydroXiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F6D70511B606A590BAFD75 /* Pods_HydroXiOS_HydroXiOSUITests.framework */; };
@@ -44,7 +46,7 @@
 		7469C70A70A3CEE17C82ED8B /* Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7749786329376EC9001F1EEB /* HydroXiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroXiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7749786629376EC9001F1EEB /* HydroXiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSApp.swift; sourceTree = "<group>"; };
-		7749786829376EC9001F1EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7749786829376EC9001F1EEB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		7749786A29376ECA001F1EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7749786C29376ECA001F1EEB /* HydroXiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HydroXiOS.entitlements; sourceTree = "<group>"; };
 		7749786E29376ECA001F1EEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		7749787E29376ECA001F1EEB /* HydroXiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroXiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITests.swift; sourceTree = "<group>"; };
 		7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7779D7852937E3C0003761EA /* Dia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dia.swift; sourceTree = "<group>"; };
+		7779D7872937E456003761EA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		78DD99ABF208459F96A1CB0F /* Pods_HydroXiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroXiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B94DDEF90809D9B8404B79B /* Pods-HydroXiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS.release.xcconfig"; path = "Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS.release.xcconfig"; sourceTree = "<group>"; };
 		E1F6D70511B606A590BAFD75 /* Pods_HydroXiOS_HydroXiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroXiOS_HydroXiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +116,9 @@
 		7749786529376EC9001F1EEB /* HydroXiOS */ = {
 			isa = PBXGroup;
 			children = (
+				7779D7842937E3A1003761EA /* Models */,
 				7749786629376EC9001F1EEB /* HydroXiOSApp.swift */,
-				7749786829376EC9001F1EEB /* ContentView.swift */,
+				7749786829376EC9001F1EEB /* MenuView.swift */,
 				7749786A29376ECA001F1EEB /* Assets.xcassets */,
 				7749786C29376ECA001F1EEB /* HydroXiOS.entitlements */,
 				7749786D29376ECA001F1EEB /* Preview Content */,
@@ -146,6 +151,15 @@
 			path = HydroXiOSUITests;
 			sourceTree = "<group>";
 		};
+		7779D7842937E3A1003761EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7779D7852937E3C0003761EA /* Dia.swift */,
+				7779D7872937E456003761EA /* Config.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8AAD6460F4064658D148A0B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +180,6 @@
 				26E3B8C54D29A134C7D36885 /* Pods-HydroXiOSTests.debug.xcconfig */,
 				664BB1E4F46C035D2DCD2C4D /* Pods-HydroXiOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7749786929376EC9001F1EEB /* ContentView.swift in Sources */,
+				7749786929376EC9001F1EEB /* MenuView.swift in Sources */,
+				7779D7882937E456003761EA /* Config.swift in Sources */,
 				7749786729376EC9001F1EEB /* HydroXiOSApp.swift in Sources */,
+				7779D7862937E3C0003761EA /* Dia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
