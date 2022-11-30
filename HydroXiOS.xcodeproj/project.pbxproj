@@ -14,6 +14,9 @@
 		7749787929376ECA001F1EEB /* HydroXiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749787829376ECA001F1EEB /* HydroXiOSTests.swift */; };
 		7749788329376ECA001F1EEB /* HydroXiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */; };
 		7749788529376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */; };
+		C4939A65D938A8E01B56962F /* Pods_HydroXiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67D413921023238BB26E6C6 /* Pods_HydroXiOSTests.framework */; };
+		CAC144A6394FF5B86629E391 /* Pods_HydroXiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DD99ABF208459F96A1CB0F /* Pods_HydroXiOS.framework */; };
+		EF49C43EF798AF974488E076 /* Pods_HydroXiOS_HydroXiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F6D70511B606A590BAFD75 /* Pods_HydroXiOS_HydroXiOSUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26E3B8C54D29A134C7D36885 /* Pods-HydroXiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HydroXiOSTests/Pods-HydroXiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40968FA7DD5940B967F7BB82 /* Pods-HydroXiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS.debug.xcconfig"; path = "Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		664BB1E4F46C035D2DCD2C4D /* Pods-HydroXiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOSTests.release.xcconfig"; path = "Target Support Files/Pods-HydroXiOSTests/Pods-HydroXiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		68F079129CAAB0B166B667A6 /* Pods-HydroXiOS-HydroXiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS-HydroXiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7469C70A70A3CEE17C82ED8B /* Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7749786329376EC9001F1EEB /* HydroXiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HydroXiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7749786629376EC9001F1EEB /* HydroXiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSApp.swift; sourceTree = "<group>"; };
 		7749786829376EC9001F1EEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,10 @@
 		7749787E29376ECA001F1EEB /* HydroXiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydroXiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7749788229376ECA001F1EEB /* HydroXiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITests.swift; sourceTree = "<group>"; };
 		7749788429376ECA001F1EEB /* HydroXiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroXiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78DD99ABF208459F96A1CB0F /* Pods_HydroXiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroXiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B94DDEF90809D9B8404B79B /* Pods-HydroXiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HydroXiOS.release.xcconfig"; path = "Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS.release.xcconfig"; sourceTree = "<group>"; };
+		E1F6D70511B606A590BAFD75 /* Pods_HydroXiOS_HydroXiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroXiOS_HydroXiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67D413921023238BB26E6C6 /* Pods_HydroXiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HydroXiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC144A6394FF5B86629E391 /* Pods_HydroXiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4939A65D938A8E01B56962F /* Pods_HydroXiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF49C43EF798AF974488E076 /* Pods_HydroXiOS_HydroXiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +94,8 @@
 				7749787729376ECA001F1EEB /* HydroXiOSTests */,
 				7749788129376ECA001F1EEB /* HydroXiOSUITests */,
 				7749786429376EC9001F1EEB /* Products */,
+				EFB1F045B8033B6AAF8B6953 /* Pods */,
+				8AAD6460F4064658D148A0B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +146,30 @@
 			path = HydroXiOSUITests;
 			sourceTree = "<group>";
 		};
+		8AAD6460F4064658D148A0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78DD99ABF208459F96A1CB0F /* Pods_HydroXiOS.framework */,
+				E1F6D70511B606A590BAFD75 /* Pods_HydroXiOS_HydroXiOSUITests.framework */,
+				F67D413921023238BB26E6C6 /* Pods_HydroXiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB1F045B8033B6AAF8B6953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40968FA7DD5940B967F7BB82 /* Pods-HydroXiOS.debug.xcconfig */,
+				8B94DDEF90809D9B8404B79B /* Pods-HydroXiOS.release.xcconfig */,
+				68F079129CAAB0B166B667A6 /* Pods-HydroXiOS-HydroXiOSUITests.debug.xcconfig */,
+				7469C70A70A3CEE17C82ED8B /* Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig */,
+				26E3B8C54D29A134C7D36885 /* Pods-HydroXiOSTests.debug.xcconfig */,
+				664BB1E4F46C035D2DCD2C4D /* Pods-HydroXiOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7749788829376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOS" */;
 			buildPhases = (
+				C76E4F2E9F35EAF05118B656 /* [CP] Check Pods Manifest.lock */,
 				7749785F29376EC9001F1EEB /* Sources */,
 				7749786029376EC9001F1EEB /* Frameworks */,
 				7749786129376EC9001F1EEB /* Resources */,
+				3CFE8184EB70D0351E176848 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7749788B29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSTests" */;
 			buildPhases = (
+				477697632F949AB47B7E9C2A /* [CP] Check Pods Manifest.lock */,
 				7749787029376ECA001F1EEB /* Sources */,
 				7749787129376ECA001F1EEB /* Frameworks */,
 				7749787229376ECA001F1EEB /* Resources */,
@@ -171,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7749788E29376ECA001F1EEB /* Build configuration list for PBXNativeTarget "HydroXiOSUITests" */;
 			buildPhases = (
+				6F22AD4BC7EA851CD01DC6F7 /* [CP] Check Pods Manifest.lock */,
 				7749787A29376ECA001F1EEB /* Sources */,
 				7749787B29376ECA001F1EEB /* Frameworks */,
 				7749787C29376ECA001F1EEB /* Resources */,
+				AA1FF5720F4687BE378E901B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CFE8184EB70D0351E176848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS/Pods-HydroXiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		477697632F949AB47B7E9C2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroXiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F22AD4BC7EA851CD01DC6F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroXiOS-HydroXiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1FF5720F4687BE378E901B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HydroXiOS-HydroXiOSUITests/Pods-HydroXiOS-HydroXiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76E4F2E9F35EAF05118B656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HydroXiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7749785F29376EC9001F1EEB /* Sources */ = {
@@ -408,6 +557,7 @@
 		};
 		7749788929376ECA001F1EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40968FA7DD5940B967F7BB82 /* Pods-HydroXiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 		};
 		7749788A29376ECA001F1EEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B94DDEF90809D9B8404B79B /* Pods-HydroXiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +631,7 @@
 		};
 		7749788C29376ECA001F1EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E3B8C54D29A134C7D36885 /* Pods-HydroXiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +654,7 @@
 		};
 		7749788D29376ECA001F1EEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664BB1E4F46C035D2DCD2C4D /* Pods-HydroXiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +677,7 @@
 		};
 		7749788F29376ECA001F1EEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F079129CAAB0B166B667A6 /* Pods-HydroXiOS-HydroXiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +699,7 @@
 		};
 		7749789029376ECA001F1EEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7469C70A70A3CEE17C82ED8B /* Pods-HydroXiOS-HydroXiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
