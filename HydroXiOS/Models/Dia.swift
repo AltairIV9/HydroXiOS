@@ -13,9 +13,9 @@ class Dia: Object, ObjectKeyIdentifiable{
     @Persisted var dia: String = "0-0-0"
     @Persisted var quantidadeTomado: Int = 0
     @Persisted var neededNow: Float = 0
-    @Persisted var currentRest: Int64 = 0
+    @Persisted var currentRest: Float = 0
     
-    convenience init(dia: String, quantidadeTomado: Int, neededNow: Float, currentRest: Int64){
+    convenience init(dia: String, quantidadeTomado: Int, neededNow: Float, currentRest: Float){
         self.init()
         self.dia = dia
         self.quantidadeTomado = quantidadeTomado
